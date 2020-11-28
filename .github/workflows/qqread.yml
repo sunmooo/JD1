@@ -39,7 +39,7 @@ jobs:
       - name: '运行 【QQ阅读】'
         run: |
           node qqread1.js
-          env:
+        env:
              COOKIE_QQYD: ${{ secrets.COOKIE_QQYD }}
           
         
