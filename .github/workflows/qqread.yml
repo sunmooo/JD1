@@ -38,7 +38,7 @@ jobs:
           npm install got download            
       - name: '运行 【QQ阅读】'
         run: |
-          node qqread.js
+          node qqread1.js
           env:
              COOKIE_QQYD: ${{ secrets.COOKIE_QQYD }}
           
