@@ -10,7 +10,7 @@ on:
   watch:
     types: started
   repository_dispatch:
-    types: jd_apple_live.js
+    types: jd_apple_live
 jobs:
   build:
 
@@ -20,7 +20,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          repository: lxk0301/jd_scripts
+          repository: https://github.com/lxk0301/jd_scripts.git ~/jd_scripts
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
@@ -37,6 +37,7 @@ jobs:
           npm install
       - name: '运行 【苹果抽奖机】'
         run: |
+          cd ~/jd_scripts
           node jd_apple_live.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
