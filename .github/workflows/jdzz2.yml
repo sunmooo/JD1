@@ -29,7 +29,7 @@ jobs:
         if: env.JD_COOKIE
         run: |
           cd ~/JD1
-          node Task/jd_jdzz.js
+          node Task/jdzz.js
         env:
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
           BARK_PUSH: ${{ secrets.BARK_PUSH }}
