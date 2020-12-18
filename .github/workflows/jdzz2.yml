@@ -23,7 +23,7 @@ jobs:
           node-version: 12.x
       - name: npm install
         run: |
-          cd ~/Scripts
+          cd ~/JD1
           npm install
       - name: '运行 【赚赚2】'
         if: env.JD_COOKIE
