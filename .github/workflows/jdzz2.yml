@@ -25,6 +25,7 @@ jobs:
         run: |
           cd ~/JD1
           npm install
+          npm start
       - name: '运行 【赚赚2】'
         if: env.JD_COOKIE
         run: |
