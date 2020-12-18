@@ -6,7 +6,7 @@ name: 看一看
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10-20/10 1 * * *'
+    - cron: '0 1,2 * * *'
   watch:
     types: started
   repository_dispatch:
