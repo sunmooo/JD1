@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Checkout
         run: |
-          git clone https://github.com/sunmooo/JD1.git ~/Scripts
+          git clone https://github.com/sunmooo/JD1.git ~/JD1
       - name: Use Node.js 12.x
         uses: actions/setup-node@v1
         with:
@@ -28,7 +28,7 @@ jobs:
       - name: '运行 【赚赚2】'
         if: env.JD_COOKIE
         run: |
-          cd ~/Scripts
+          cd ~/JD1
           node Task/jd_jdzz.js
         env:
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
