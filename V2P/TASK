@@ -1,0 +1,53 @@
+{
+  "name": "11111",
+  "author": "留个名字",
+  "desc": "xx 导出的任务订阅。该订阅适用于 elecV2P，与其他软件并不兼容。相关说明参考：https://github.com/elecV2/elecV2P-dei/tree/master/docs/06-task.md",
+  "date": "2021-05-28 21:11:46",
+  "list": [
+    {
+      "name": "新推官",
+      "type": "cron",
+      "time": "0 0 0 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_xtg.js"
+      }
+    },
+    {
+      "name": "惊喜财富岛体现",
+      "type": "cron",
+      "time": "0 0 0 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/gxggxl/QuantumultX/master/Script/jx_cfdtx.js"
+      }
+    },
+    {
+      "name": "中青看看赚",
+      "type": "cron",
+      "time": "30 10 6 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/Sunert/Script/master/Task/youth_gain.js"
+      }
+    },
+    {
+      "name": "中青看点",
+      "type": "cron",
+      "time": "30 */10 * * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js"
+      }
+    },
+    {
+      "name": "中青阅读文章",
+      "type": "cron",
+      "time": "30 1 1-5/1 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/Sunert/Script/master/Task/Youth_Read.js"
+      }
+    }
+  ]
+}
