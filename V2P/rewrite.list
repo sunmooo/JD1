@@ -1,0 +1,8 @@
+[sub]
+
+[elecV2P rewrite.list]
+^https\:\/\/wq\.jd\.com\/cubeactive\/farm\/dotask https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
+https:\/\/ios\.baertt\.com\/v5\/task\/browse_start\.json https://raw.githubusercontent.com/Sunert/Script/master/Task/youth_gain.js
+https:\/\/ios\.baertt\.com\/v5\/Nameless\/adlickstart\.json https://raw.githubusercontent.com/Sunert/Script/master/Task/youth_gain.js
+https:\/\/ios\.baertt\.com\/v5\/article\/info\/get\.json https://raw.githubusercontent.com/Sunert/Script/master/Task/Youth_Read.js
+https:\/\/ios\.baertt\.com\/v5\/user\/stay\.json https://raw.githubusercontent.com/Sunert/Script/master/Task/Youth_Read.js

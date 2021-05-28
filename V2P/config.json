@@ -1,0 +1,62 @@
+{
+  "path": "/usr/local/app/script/Lists/config.json",
+  "version": "3.3.4",
+  "start": 1620378281393,
+  "CONFIG_Axios": {
+    "proxy": false,
+    "timeout": 5000,
+    "uagent": "iPhone"
+  },
+  "CONFIG_FEED": {
+    "enable": true,
+    "homepage": "https://github.com/elecV2/elecV2P",
+    "iftttid": {
+      "enable": false,
+      "key": ""
+    },
+    "barkkey": {
+      "enable": false,
+      "key": ""
+    },
+    "custnotify": {
+      "enable": true,
+      "url": "https://api.telegram.org/bot1063001297:AAFOwKIMM3LpQMYBqfQqKNUSpl2DnM1o9EA/",
+      "type": "POST",
+      "data": "{\n  \"method\": \"sendMessage\",\n  \"chat_id\": 935083919,\n  \"text\": `$title$\\n$body$\n$url$`\n}"
+    },
+    "runjs": {
+      "enable": false,
+      "list": ""
+    },
+    "merge": {
+      "enable": false,
+      "gaptime": 60,
+      "number": 10,
+      "andor": false
+    },
+    "maxbLength": 1200,
+    "webmessage": {
+      "enable": false
+    }
+  },
+  "wbrtoken": "4063f6f4-a3dd-42fc-98fd-53d7bde7b9fa",
+  "CONFIG_RUNJS": {
+    "timeout": 5000,
+    "intervals": 43200,
+    "numtofeed": 0,
+    "jslogfile": true
+  },
+  "efss": {
+    "enable": true,
+    "directory": "./efss",
+    "dotshow": {
+      "enable": false
+    },
+    "max": 600
+  },
+  "anyproxy": {
+    "enable": true,
+    "port": 8001,
+    "webPort": 8002
+  }
+}
